@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 800px;
+    margin:  50px auto;
+    border: solid 3px rgb(199, 15, 76);
+    padding: 15px;
+    
+}
+.wrapper{
+    font-size: 24px;
+}
+.content:hover{
+    border-color: purple;
+}
